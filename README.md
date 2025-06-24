@@ -9,7 +9,7 @@ This repo contains some additional data. For more details on the origin of the d
   info
 ```
 
-``mermaid
+```mermaid
 ---
 config:
     themeVariables:
