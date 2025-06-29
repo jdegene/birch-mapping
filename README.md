@@ -24,7 +24,7 @@ config:
 
 
 xychart-beta
-    title "NVIDIA xx90 cards in months after 'first seen'. All variants."
+    title "NVIDIA xx90 cards in months after (first seen). All variants."
     x-axis[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
     y-axis "%" 
     line [0]
@@ -52,7 +52,7 @@ config:
 
 
 xychart-beta
-    title "NVIDIA xx80 cards in months after 'first seen'. All variants."
+    title "NVIDIA xx80 cards in months after (first seen). All variants."
     x-axis[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
     y-axis "%" 
     line [0.27999999999999997, 0.47000000000000003, 0.72, 0.83, 0.95, 2.17, 1.32, 1.1400000000000001, 1.2799999999999998, 1.26, 1.5099999999999998, 2.23, 3.29, 3.46, 3.5900000000000003, 3.42, 4.17, 4.180000000000001, 4.14, 4.5, 4.37, 4.33, 4.31, 4.45, 4.42, 4.470000000000001, 4.58, 4.130000000000001, 4.45, 4.36, 4.14, 4.24, 4.21, 4.38, 3.95, 4.01]
@@ -80,7 +80,7 @@ config:
 
 
 xychart-beta
-    title "NVIDIA xx70 cards in months after 'first seen'. All variants."
+    title "NVIDIA xx70 cards in months after (first seen). All variants."
     x-axis[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
     y-axis "%" 
     line [0.32, 0.6799999999999999, 1.25, 1.53, 1.82, 3.18, 1.78, 1.55, 1.69, 1.82, 2.04, 2.84, 3.95, 4.17, 4.2299999999999995, 4.16, 4.77, 4.88, 4.67, 5.26, 5.119999999999999, 5.36, 5.489999999999999, 5.74, 5.66, 5.7700000000000005, 5.74, 5.51, 5.79, 5.6899999999999995, 5.56, 5.53, 5.4399999999999995, 5.6000000000000005, 5.140000000000001, 5.26]
@@ -108,7 +108,7 @@ config:
 
 
 xychart-beta
-    title "NVIDIA xx60 cards in months after 'first seen'. All variants."
+    title "NVIDIA xx60 cards in months after (first seen). All variants."
     x-axis[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
     y-axis "%" 
     line [0.24, 0.9900000000000001, 1.47, 2.01, 6.3, 7.470000000000001, 11.29, 13.200000000000001, 14.610000000000001, 15.409999999999998, 14.05, 13.62, 11.88, 11.89, 12.33, 12.5, 13.309999999999999, 13.81, 14.299999999999999, 14.06, 14.799999999999999, 14.31, 15.310000000000002, 14.99, 15.690000000000001, 15.690000000000001, 15.5, 14.829999999999998, 14.42, 14.01, 14.44, 14.64, 15.790000000000001, 13.03, 12.23, 12.13]
@@ -118,5 +118,37 @@ xychart-beta
     line [0.2]
 ``` 
 $${\color{#51a8a6}1060\space(Aug \space 2016)\space\space\space\color{#f9a900}2060\space(Mar \space 2019)\space\space\space\color{#f92800}3060\space(Jan \space 2021)\space\space\space\color{#d92080}4060\space(Apr \space 2023)\space\space\space\color{#8a52a6}5060\space(May \space 2025)\space\space\space}$$
+
+<br/>
+
+### AMD Generation Comparison
+
+Compare GPUs across Generations, first month a GPU appears in Steam Hardware Survey = month 0.
+Grouping is a bit less straight forward than with NVIDIA cards because of the naming shifts
+
+```mermaid
+---
+config:
+    xyChart:
+        width: 700
+        height: 400
+        
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#51a8a6,#f9a900,#f92800,#d92080,#8a52a6"
+
+--- 
+
+
+xychart-beta
+    title "AMD High-End cards in months after (first seen). All variants."
+    x-axis[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+    y-axis "%" 
+    line [0]
+    line [0.63, 0.58, 0.5499999999999999, 0.52, 0.5, 0.47000000000000003, 0.47000000000000003, 0.42, 0.4, 1.22, 1.1900000000000002, 1.03, 0.98, 0.8200000000000001, 0.77, 0.7599999999999999, 0.73, 0.8, 0.79, 0.76, 0.73, 0.6699999999999999, 0.64, 0.59, 0.27999999999999997, 0.18, 0.16999999999999998, 0.16, 0.15, 0.15, 0.18, 0.16, 0.38, 0.33, 0.34, 0.33]
+    line [1.8900000000000001, 1.8900000000000001, 1.79, 1.79, 1.5599999999999998, 1.53, 1.54, 1.51, 1.44, 1.4200000000000002, 1.35, 1.3299999999999998, 1.24, 1.2, 1.1199999999999999, 0.86, 0.41000000000000003, 0.32, 0.32, 0.27999999999999997, 0.31, 0.41000000000000003, 0.62, 0.62, 0.58, 0.53, 0.5599999999999999, 0.54, 0.51, 0.53, 0.49, 0.47000000000000003, 0.44, 0.43, 0.42, 0.41000000000000003]
+    line [0]
+``` 
+$${\color{#51a8a6}---\space(---)\space\space\space\color{#f9a900}6800|6900|6950\space(May \space 2014)\space\space\space\color{#f92800}7900\space(May \space 2015)\space\space\space\color{#d92080}9900|9950\space(---)\space\space\space}$$
 
 <br/>
