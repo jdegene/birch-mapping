@@ -4,6 +4,35 @@ Mapping of Birch trees in German cities
 This repo contains some additional data. For more details on the origin of the data visit [here](https://medium.com/p/97df710518fa) or on the mapping itself visit [here](https://medium.com/p/229b5f0087e1).
 
 ## GPUs 
+```mermaid
+---
+config:
+    xyChart:
+        width: 700
+        height: 400
+        
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#76b900,#ED1C24,#0071C5,#808080"
+
+--- 
+
+xychart-beta
+    title "NVIDIA xx90 cards in months after (first seen). All variants."
+    x-axis [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+    y-axis "Ø %" 
+    line [56.48, 56.763333333333335, 50.07625, 47.84571428571429, 37.81375, 35.39000000000001, 39.059, 45.67400000000001, 50.03636363636363, 62.983999999999995, 70.6925, 68.25333333333333, 68.15416666666665, 69.88333333333333, 71.41666666666667, 71.76, 74.17666666666666, 71.792]
+    line [19.93, 20.3875, 23.07, 25.19, 21.881249999999998, 16.706666666666667, 16.323999999999998, 21.631999999999998, 18.71, 6.939999999999999, 8.461666666666668, 9.675833333333333, 11.463333333333333, 11.3575, 10.354999999999999, 10.59, 12.410833333333333, 12.65]
+    line [3.2, 2.75, 3.09625, 2.145714285714286, 9.1675, 12.888333333333332, 17.224999999999998, 13.13, 17.69909090909091, 7.8375, 9.230833333333333, 10.240833333333333, 9.756666666666668, 6.418333333333333, 4.340833333333333, 3.480833333333334, 4.300000000000001, 3.3940000000000006]
+    line [20.39, 20.301666666666666, 23.971249999999998, 24.98, 39.86875, 53.145714285714284, 41.85272727272727, 49.48444444444444, 13.566363636363635, 25.19, 11.603333333333333, 11.834999999999999, 10.618333333333334, 12.334166666666667, 13.880833333333333, 14.175833333333335, 12.324166666666665, 12.148]
+``` 
+$${\color{#76b900}NIVIDA\space\space\space
+\color{#ED1C24}AMD\space\space\space
+\color{#0071C5}Intel\space\space\space
+\color{#808080}Other\space\space\space}$$
+
+<br/>
+
 ### NVIDIA Generation Comparison
 
 Compare GPUs across Generations, first month a GPU appears in Steam Hardware Survey = month 0.
@@ -230,7 +259,6 @@ xychart-beta
     line [0]
     line [0]
 ``` 
-$${\color{#51a8a6}5500\space(Oct \space 2020)\space\space\space\color{#f9a900}6400|6500\space(Sep \space 2022)\space\space\space\color{#f92800}7600\space(---)\space\space\space\color{#d92080}9060\space(---)\space\space\space}$$
+$${\color{#51a8a6}5500\space(Oct \space 2020)\space\space\space\color{#f9a900}6400|6500\space(Sep \space 2022)\space\space\space\color{#f92800}7600|7650\space(---)\space\space\space\color{#d92080}9060\space(---)\space\space\space}$$
 
 <br/>
-
