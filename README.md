@@ -33,7 +33,7 @@ xychart-beta
     line [0.22999999999999998, 0.3, 0.25, 0.42, 0.43, 0.54, 0.64, 0.76, 0.7100000000000001, 0.61, 0.88, 0.8699999999999999, 0.91, 0.88, 0.8500000000000001, 0.96, 0.9900000000000001, 0.9199999999999999, 0.8999999999999999, 0.96, 0.91, 1.17, 1.01, 0.96, 0.96, 0.7100000000000001, 0.91, 0.9400000000000001, 0.8999999999999999]
     line [0]
 ``` 
-$${\color{#51a8a6}---\space(---)\space\space\color{#f9a900}---\space(---)\space\space\color{#f92800}3090\space(2021 Jan)\space\space\color{#d92080}4090\space(2023 Jan)\space\space\color{#8a52a6}5090\space(---)\space\space}$$
+$${\color{#51a8a6}---\space(--)\space\space\space\color{#f9a900}---\space(--)\space\space\space\color{#f92800}3090\space(Jan \space 2021)\space\space\space\color{#d92080}4090\space(Jan \space 2023)\space\space\space\color{#8a52a6}5090\space(--)\space\space\space}$$
 
 <br/>
 
@@ -61,7 +61,7 @@ xychart-beta
     line [0.19, 0.19, 0.27999999999999997, 0.32, 0.38999999999999996, 0.44999999999999996, 0.52, 0.51, 0.62, 0.67, 0.7100000000000001, 0.88, 0.75, 0.75, 1.16, 1.3, 1.27, 1.3, 1.4000000000000001, 1.44, 1.9299999999999997, 1.69, 1.7399999999999998, 1.7399999999999998, 1.8599999999999999, 1.67, 1.7599999999999998, 1.73]
     line [0.19, 0.37, 0.44999999999999996]
 ``` 
-$${\color{#51a8a6}1080\space(2016 Jul)\space\space\color{#f9a900}2080\space(2018 Dec)\space\space\color{#f92800}3080\space(2020 Nov)\space\space\color{#d92080}4080\space(2023 Feb)\space\space\color{#8a52a6}5080\space(2025 Mar)\space\space}$$
+$${\color{#51a8a6}1080\space(Jul \space 2016)\space\space\space\color{#f9a900}2080\space(Dec \space 2018)\space\space\space\color{#f92800}3080\space(Nov \space 2020)\space\space\space\color{#d92080}4080\space(Feb \space 2023)\space\space\space\color{#8a52a6}5080\space(Mar \space 2025)\space\space\space}$$
 
 <br/>
 
@@ -89,7 +89,7 @@ xychart-beta
     line [0.16999999999999998, 0.22999999999999998, 0.4, 0.65, 0.95, 1.1900000000000002, 1.68, 1.96, 3.1399999999999997, 2.53, 2.94, 3.06, 3.83, 4.199999999999999, 4.46, 4.97, 5.140000000000001, 5.65, 5.96, 6.67, 8.52, 6.93, 7.720000000000001, 7.720000000000001, 11.41, 7.199999999999999, 7.470000000000001, 7.16]
     line [0.63, 1.0499999999999998]
 ``` 
-$${\color{#51a8a6}1070\space(2016 Jul)\space\space\color{#f9a900}2070\space(2018 Dec)\space\space\color{#f92800}3070\space(2021 Mar)\space\space\color{#d92080}4070\space(2023 Feb)\space\space\color{#8a52a6}5070\space(2025 Apr)\space\space}$$
+$${\color{#51a8a6}1070\space(Jul \space 2016)\space\space\space\color{#f9a900}2070\space(Dec \space 2018)\space\space\space\color{#f92800}3070\space(Mar \space 2021)\space\space\space\color{#d92080}4070\space(Feb \space 2023)\space\space\space\color{#8a52a6}5070\space(Apr \space 2025)\space\space\space}$$
 
 <br/>
 
@@ -117,6 +117,6 @@ xychart-beta
     line [0.22999999999999998, 0.3, 0.79, 1.1199999999999999, 2.16, 2.87, 4.5200000000000005, 3.9900000000000007, 4.06, 4.87, 6.16, 6.800000000000001, 7.090000000000001, 7.71, 8.76, 9.22, 10.530000000000001, 12.229999999999999, 14.629999999999999, 11.530000000000001, 12.2, 12.25, 18.39, 11.959999999999999, 12.28, 11.690000000000001]
     line [0.2]
 ``` 
-$${\color{#51a8a6}1060\space(2016 Aug)\space\space\color{#f9a900}2060\space(2019 Mar)\space\space\color{#f92800}3060\space(2021 Jan)\space\space\color{#d92080}4060\space(2023 Apr)\space\space\color{#8a52a6}5060\space(2025 May)\space\space}$$
+$${\color{#51a8a6}1060\space(Aug \space 2016)\space\space\space\color{#f9a900}2060\space(Mar \space 2019)\space\space\space\color{#f92800}3060\space(Jan \space 2021)\space\space\space\color{#d92080}4060\space(Apr \space 2023)\space\space\space\color{#8a52a6}5060\space(May \space 2025)\space\space\space}$$
 
 <br/>
