@@ -279,6 +279,29 @@ config:
 --- 
 
 xychart-beta
+    title "Primary Display: weighted aspect ratio changes"
+    x-axis [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+    y-axis "Ø %" 
+    line [1.417941306228879, 1.4611567835141763, 1.533974920001756, 1.5813610553330728, 1.6441197983994256, 1.6789673069298932, 1.6979525680775114, 1.7118873828122096, 1.7229454013771042, 1.7476951638068883, 1.7618596685661352, 1.765595772113996, 1.7737831941811184, 1.7794489740395185, 1.7798889098601134, 1.7814503174534728, 1.784019854809584, 1.7849837780465507]
+``` 
+$${\color{#51a8a6} For \space reference \space 1920*1080 \space ratio \space = \space 1.77 \space pixels \space}$$
+
+<br/>
+
+```mermaid
+---
+config:
+    xyChart:
+        width: 700
+        height: 400
+        
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#51a8a6"
+
+--- 
+
+xychart-beta
     title "Primary Display: weighted number of pixels per year by resolution"
     x-axis [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
     y-axis "Ø %" 
