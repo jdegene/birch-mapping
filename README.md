@@ -13,7 +13,7 @@ Combines all variants, eg. 4060, 4060 Laptop GPU, 4060 Ti are all grouped in 406
 ---
 config:
     xyChart:
-        width: 700
+        width: 800
         height: 400
         
     themeVariables:
@@ -41,7 +41,7 @@ $${\color{#51a8a6}--- \space\space\color{#f9a900}--- \space\space\color{#f92800}
 ---
 config:
     xyChart:
-        width: 700
+        width: 800
         height: 400
         
     themeVariables:
@@ -69,7 +69,7 @@ $${\color{#51a8a6}1080 \space\space\color{#f9a900}2080 \space\space\color{#f9280
 ---
 config:
     xyChart:
-        width: 700
+        width: 800
         height: 400
         
     themeVariables:
@@ -97,7 +97,7 @@ $${\color{#51a8a6}1070 \space\space\color{#f9a900}2070 \space\space\color{#f9280
 ---
 config:
     xyChart:
-        width: 700
+        width: 800
         height: 400
         
     themeVariables:
@@ -109,7 +109,7 @@ config:
 
 xychart-beta
     title "NVIDIA xx60 cards in months after 'first seen'. All variants."
-    x-axis[0, None, None, None, None, None, 6, None, None, None, None, None, 12, None, None, None, None, None, 18, None, None, None, None, None, 24, None, None, None, None, None, 30, None, None, None, None, None, 36, None, None, None, None, None, 42, None, None, None, None, None]
+    x-axis[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]
     y-axis "%" 
     line [0.24, 0.9900000000000001, 1.47, 2.01, 6.3, 7.470000000000001, 11.29, 13.200000000000001, 14.610000000000001, 15.409999999999998, 14.05, 13.62, 11.88, 11.89, 12.33, 12.5, 13.309999999999999, 13.81, 14.299999999999999, 14.06, 14.799999999999999, 14.31, 15.310000000000002, 14.99, 15.690000000000001, 15.690000000000001, 15.5, 14.829999999999998, 14.42, 14.01, 14.44, 14.64, 15.790000000000001, 13.03, 12.23, 12.13, 11.459999999999999, 11.27, 11.27, 11.21, 10.75, 10.37, 10.48, 10.2, 11.31, 9.379999999999999, 9.19, 9.15]
     line [0.26, 0.51, 0.65, 0.8200000000000001, 0.9900000000000001, 1.23, 1.48, 1.6900000000000002, 2.1999999999999997, 2.63, 2.6, 2.66, 3.3099999999999996, 2.9200000000000004, 3.0400000000000005, 3.36, 3.52, 3.9699999999999998, 4.19, 4.34, 4.77, 6.9, 5.01, 5.24, 6.29, 6.35, 6.220000000000001, 7.199999999999999, 6.67, 8.020000000000001, 6.69, 6.24, 6.43, 6.659999999999999, 6.140000000000001, 6.35, 6.670000000000001, 6.039999999999999, 6.1, 5.94, 6.14, 5.92, 6.11, 7.089999999999999, 5.56, 5.62, 5.33, 5.64]
@@ -120,5 +120,6 @@ xychart-beta
 $${\color{#51a8a6}1060 \space\space\color{#f9a900}2060 \space\space\color{#f92800}3060 \space\space\color{#d92080}4060 \space\space\color{#8a52a6}5060 \space\space}$$
 
 <br/>
+
 
 
