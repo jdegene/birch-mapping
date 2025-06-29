@@ -31,7 +31,10 @@ xychart-beta
     line [0.22999999999999998, 0.3, 0.25, 0.42, 0.43, 0.54, 0.64, 0.76, 0.7100000000000001, 0.61, 0.88, 0.8699999999999999, 0.91, 0.88, 0.8500000000000001, 0.96, 0.9900000000000001, 0.9199999999999999, 0.8999999999999999, 0.96, 0.91, 1.17, 1.01, 0.96, 0.96, 0.7100000000000001, 0.91, 0.9400000000000001, 0.8999999999999999]
     line [0]
 ``` 
-$${\color{#51a8a6}--- \space\space\color{#f9a900}--- \space\space\color{#f92800}3090 \space\space\color{#d92080}4090 \space\space\color{#8a52a6}5090 \space\space}$$&nbsp;&nbsp; 
+$${\color{#51a8a6}--- \space\space\color{#f9a900}--- \space\space\color{#f92800}3090 \space\space\color{#d92080}4090 \space\space\color{#8a52a6}5090 \space\space}$$
+
+<br/>
+
 ```mermaid
 ---
 config:
@@ -57,7 +60,7 @@ xychart-beta
     line [0.19, 0.37, 0.44999999999999996]
 ``` 
 $${\color{#51a8a6}1080 \space\space\color{#f9a900}2080 \space\space\color{#f92800}3080 \space\space\color{#d92080}4080 \space\space\color{#8a52a6}5080 \space\space}$$
-\ 
+<br/>
 ```mermaid
 ---
 config:
@@ -83,8 +86,7 @@ xychart-beta
     line [0.63, 1.0499999999999998]
 ``` 
 $${\color{#51a8a6}1070 \space\space\color{#f9a900}2070 \space\space\color{#f92800}3070 \space\space\color{#d92080}4070 \space\space\color{#8a52a6}5070 \space\space}$$
-\
-\ 
+<br/><br/>
 ```mermaid
 ---
 config:
