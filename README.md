@@ -18,7 +18,7 @@ config:
 --- 
 
 xychart-beta
-    title "NVIDIA xx90 cards in months after (first seen). All variants."
+    title "Average annual marketshares by manufacturer and year"
     x-axis [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
     y-axis "Ø %" 
     line [56.48, 56.763333333333335, 50.07625, 47.84571428571429, 37.81375, 35.39000000000001, 39.059, 45.67400000000001, 50.03636363636363, 62.983999999999995, 70.6925, 68.25333333333333, 68.15416666666665, 69.88333333333333, 71.41666666666667, 71.76, 74.17666666666666, 71.792]
@@ -262,3 +262,53 @@ xychart-beta
 $${\color{#51a8a6}5500\space(Oct \space 2020)\space\space\space\color{#f9a900}6400|6500\space(Sep \space 2022)\space\space\space\color{#f92800}7600|7650\space(---)\space\space\space\color{#d92080}9060\space(---)\space\space\space}$$
 
 <br/>
+
+
+## Resolution 
+```mermaid
+---
+config:
+    xyChart:
+        width: 700
+        height: 400
+        
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#51a8a6"
+
+--- 
+
+xychart-beta
+    title "Primary Display: weighted number of pixels per year by resolution"
+    x-axis [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+    y-axis "Ø %" 
+    line [1188430.8928, 1288926.3533333333, 1387816.4456, 1487587.5584, 1541658.4541874998, 1555539.6754714285, 1549496.4588272728, 1559351.2310333333, 1557359.9222666668, 1788536.702933333, 1951604.4634666666, 2014008.6962666668, 2119798.684, 2216151.314933333, 2307369.4647999997, 2473576.992, 2673738.5261333333, 2760045.62816]
+``` 
+$${\color{#51a8a6} For\spacereference\space1920*1080\space=\space2.073.600\spacepixels  \space\space}$$
+
+<br/>
+
+```mermaid
+---
+config:
+    xyChart:
+        width: 700
+        height: 400
+        
+    themeVariables:
+        xyChart:
+            plotColorPalette: "#f9a900"
+
+--- 
+
+xychart-beta
+    title "Multi-Monitor: weighted number of pixels per year by resolution"
+    x-axis [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+    y-axis "Ø %" 
+    line [2319909.5456, 2509416.3005333333, 2798777.9104, 2867947.6621714286, 3563643.0461, 3616471.1752, 3474378.030618182, 3537545.9458333333, 3281757.5182666667, 3441108.7957666665, 5179962.898033333, 7688149.9864, 7739759.53, 7992133.524266667, 8231354.020799999, 8598812.918666666, 9028144.557333333, 9222842.2144]
+``` 
+$${\color{#f9a900} For\spacereference\space2x\space1920*1080\space=\space4.147.200\spacepixels  \space\space}$$
+
+<br/>
+
+
