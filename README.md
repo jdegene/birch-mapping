@@ -33,7 +33,8 @@ xychart-beta
 ``` 
 $${\color{#51a8a6}--- \space\space\color{#f9a900}--- \space\space\color{#f92800}3090 \space\space\color{#d92080}4090 \space\space\color{#8a52a6}5090 \space\space}$$
 
- <br/> 
+<br/>
+
 ```mermaid
 ---
 config:
@@ -60,7 +61,8 @@ xychart-beta
 ``` 
 $${\color{#51a8a6}1080 \space\space\color{#f9a900}2080 \space\space\color{#f92800}3080 \space\space\color{#d92080}4080 \space\space\color{#8a52a6}5080 \space\space}$$
 
- <br/> 
+<br/>
+
 ```mermaid
 ---
 config:
@@ -87,7 +89,8 @@ xychart-beta
 ``` 
 $${\color{#51a8a6}1070 \space\space\color{#f9a900}2070 \space\space\color{#f92800}3070 \space\space\color{#d92080}4070 \space\space\color{#8a52a6}5070 \space\space}$$
 
- <br/> 
+<br/>
+
 ```mermaid
 ---
 config:
@@ -114,4 +117,4 @@ xychart-beta
 ``` 
 $${\color{#51a8a6}1060 \space\space\color{#f9a900}2060 \space\space\color{#f92800}3060 \space\space\color{#d92080}4060 \space\space\color{#8a52a6}5060 \space\space}$$
 
- <br/> 
+<br/>
