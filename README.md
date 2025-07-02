@@ -325,9 +325,15 @@ $${\color{#51a8a6}5500\space(Oct \space 2020)\space\space\space\color{#f9a900}64
 ## Resolution 
 
  
-Aspect ratios are roughly mapped according to en.wikipedia.org/wiki/Display_resolution_standards with
-1.24 < 4:3 < 1.4  ~  1.49 < 3:3 < 1.51  ~  1.59 < 16:10 < 1.7   ~
-1.75 < 16:9 < 1.85  ~  1.98 < 18:9 < 2.27  ~  2.3 < 21:9 < 2.5
+Aspect ratios are roughly mapped according to [wikipedia](https://en.wikipedia.org/wiki/Display_resolution_standards) 
+with:
+
+* 1.24 < 4:3 < 1.4  
+* 1.49 < 3:3 < 1.51  
+* 1.59 < 16:10 < 1.7
+* 1.75 < 16:9 < 1.85  
+* 1.98 < 18:9 < 2.27  
+* 2.3 < 21:9 < 2.5
 ### All platforms
 ```mermaid
 ---
@@ -538,4 +544,3 @@ $${\color{#51a8a6}4:3\space\space\space
     \color{#808080}Other\space\space\space}$$
 
 <br/>
-
