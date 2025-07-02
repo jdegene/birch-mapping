@@ -265,6 +265,7 @@ $${\color{#51a8a6}5500\space(Oct \space 2020)\space\space\space\color{#f9a900}64
 
 
 ## Resolution 
+### All platforms
 ```mermaid
 ---
 config:
@@ -369,19 +370,20 @@ $${\color{#DB4105} For \space reference \space 2x \space 1920*1080 \space = \spa
 
 <br/>
 
+### Single platforms
 ```mermaid
 ---
-    config:
+config:
+    xyChart:
+        width: 700
+        height: 400
+        
+    themeVariables:
         xyChart:
-            width: 700
-            height: 400
-            
-        themeVariables:
-            xyChart:
-                plotColorPalette: "#51a8a6,#f9a900,#f92800,#d92080,#8a52a6,#46a2da,#808080"
+            plotColorPalette: "#51a8a6,#f9a900,#f92800,#d92080,#8a52a6,#46a2da,#808080"
 
-    --- 
-    
+--- 
+
     xychart-beta
         title "pc -- Primary Display: Aspect Ratio classes"
         x-axis [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
@@ -406,17 +408,17 @@ $${\color{#51a8a6}4:3\space\space\space
 
 ```mermaid
 ---
-    config:
+config:
+    xyChart:
+        width: 700
+        height: 400
+        
+    themeVariables:
         xyChart:
-            width: 700
-            height: 400
-            
-        themeVariables:
-            xyChart:
-                plotColorPalette: "#51a8a6,#f9a900,#f92800,#d92080,#8a52a6,#46a2da,#808080"
+            plotColorPalette: "#51a8a6,#f9a900,#f92800,#d92080,#8a52a6,#46a2da,#808080"
 
-    --- 
-    
+--- 
+
     xychart-beta
         title "mac -- Primary Display: Aspect Ratio classes"
         x-axis [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
@@ -441,17 +443,17 @@ $${\color{#51a8a6}4:3\space\space\space
 
 ```mermaid
 ---
-    config:
+config:
+    xyChart:
+        width: 700
+        height: 400
+        
+    themeVariables:
         xyChart:
-            width: 700
-            height: 400
-            
-        themeVariables:
-            xyChart:
-                plotColorPalette: "#51a8a6,#f9a900,#f92800,#d92080,#8a52a6,#46a2da,#808080"
+            plotColorPalette: "#51a8a6,#f9a900,#f92800,#d92080,#8a52a6,#46a2da,#808080"
 
-    --- 
-    
+--- 
+
     xychart-beta
         title "linux -- Primary Display: Aspect Ratio classes"
         x-axis [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
